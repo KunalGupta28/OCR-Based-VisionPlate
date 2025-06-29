@@ -34,3 +34,33 @@ Approximate bounding box around the plate
 Apply OCR to extract text
 
 Display results
+
+⚙️ How to Run
+Clone the repo:
+
+bash
+Copy
+Edit
+git clone https://github.com/KunalGupta28/OCR-Based-VisionPlate.git
+cd OCR-Based-VisionPlate
+Install dependencies:
+
+bash
+Copy
+Edit
+pip install opencv-python easyocr imutils matplotlib numpy
+Run the script:
+
+bash
+Copy
+Edit
+python anpr.py
+🧪 Example Output
+
+📌 Notes
+Ensure the image is clear and well-lit for better OCR results.
+
+Can be extended to work with video streams and real-time camera input.
+
+🙋‍♂️ Author
+Kunal Gupta
